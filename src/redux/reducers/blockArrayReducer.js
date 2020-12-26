@@ -1,4 +1,7 @@
-import { SET_BLOCK_ARRAY } from '../types';
+import {
+  SET_BLOCK_ARRAY,
+  CLEAR_BLOCK_ARRAY
+} from '../types';
 
 const initialState = [];
 
@@ -9,6 +12,9 @@ export const blockArrayReducer = (state = initialState, action) => {
       if (array.length === 10) array.splice(array.length - 1, 1);
       array.unshift(action.payload);
       return array;
+
+    case CLEAR_BLOCK_ARRAY:
+      return [];
 
     default:
       return state;

@@ -1,0 +1,49 @@
+.app {
+  background-color: #f5f2f2;
+  min-height: 100vh;
+}
+
+.h5 {
+  font-family: verdana, helvetica, sans-serif;
+}
+
+.explanation {
+  text-align: center;
+}
+
+.block-container {
+  background-color: #ede8e8;
+  border: 1px solid grey;
+  border-radius: 5px;
+  box-shadow: 2px 2px 1px 1px grey;
+  padding-top: .5em;
+  padding-bottom: .5em;
+}
+
+.block {
+  margin: .4em;
+}
+
+.block-number {
+  padding: .25em;
+  background-color: #d6f3ff;
+  border: 1px solid grey;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px 1px grey;
+  text-align: center;
+}
+
+.spinner {
+  background-color: #f5f2f2;
+  padding-top: 3em;
+}
+
+.btn-pause-button-variant {
+  background-color: #e3d1e2;
+  border: 1px solid black
+}
+
+.btn-resume-button-variant {
+  background-color: #d9d9d9;
+  border: 1px solid black;
+}
