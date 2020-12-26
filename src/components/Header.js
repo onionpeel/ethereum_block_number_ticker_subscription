@@ -6,7 +6,7 @@ export const Header = () => (
       Ethereum block number ticker
     </Navbar.Brand>
     <Nav>
-      <Nav.Link href="https://github.com/onionpeel/blocknumber_scroller">
+      <Nav.Link href="https://github.com/onionpeel/ethereum_block_number_ticker_subscription">
         Github
       </Nav.Link>
     </Nav>
